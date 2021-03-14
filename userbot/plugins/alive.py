@@ -21,7 +21,7 @@ async def amireallyalive(alive):
     _, check_sgnirts = check_data_base_heal_th()
     if CAT_IMG:
         cat_caption = f"**{CUSTOM_ALIVE_TEXT}**\n\n"
-        cat_caption += f"**{EMOJI} DataGGbase :** `{check_sgnirts}`\n"
+        cat_caption += f"**{EMOJI} Database :** `{check_sgnirts}`\n"
         cat_caption += f"**{EMOJI} Telethon version :** `{version.__version__}\n`"
         cat_caption += f"**{EMOJI} Catuserbot Version :** `{catversion}`\n"
         cat_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
@@ -35,7 +35,7 @@ async def amireallyalive(alive):
         await edit_or_reply(
             alive,
             f"**{CUSTOM_ALIVE_TEXT}**\n\n"
-            f"**{EMOJI} DataGGbase :** `{check_sgnirts}`\n"
+            f"**{EMOJI} Database :** `{check_sgnirts}`\n"
             f"**{EMOJI} Telethon Version :** `{version.__version__}\n`"
             f"**{EMOJI} Catuserbot Version :** `{catversion}`\n"
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
@@ -51,9 +51,9 @@ async def amireallyalive(alive):
         return
     tgbotusername = Config.TG_BOT_USERNAME
     reply_to_id = await reply_id(alive)
-    cat_caption = f"**userbot is Up and Running**\n"
+    cat_caption = f"**Markbot is Up and Running**\n"
     cat_caption += f"**  -Telethon version :** `{version.__version__}\n`"
-    cat_caption += f"**  -Catuserbot Version :** `{catversion}`\n"
+    cat_caption += f"**  -Markuserbot Version :** `{catversion}`\n"
     cat_caption += f"**  -Python Version :** `{python_version()}\n`"
     cat_caption += f"**  -Master:** {mention}\n"
     results = await bot.inline_query(tgbotusername, cat_caption)  # pylint:disable=E0602
