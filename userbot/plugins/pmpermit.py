@@ -253,7 +253,7 @@ if Config.PRIVATE_GROUP_ID is not None:
             else:
 
                 USER_BOT_NO_WARN = (
-                    f"`Hi `{mention}`, I haven't approved you yet to personal message me, Don't spam my inbox."
+                    f"`Hi `{mention}`, I haven't approved you yet to personal message me,If Ask about mirrorbot == Block,You can tag me in group."
                     f"Just say the reason and wait until you get approved.\
                                     \n\nyou have {warns}/{totalwarns} warns`\
                                     \n\n**Send** `/start` **so that my master can decide why you're here.**"
@@ -277,7 +277,7 @@ if Config.PRIVATE_GROUP_ID is not None:
                 )
             else:
                 USER_BOT_NO_WARN = (
-                    f"`Hi `{mention}`, I haven't approved you yet to personal message me, Don't spam my inbox."
+                    f"`Hi `{mention}`, I haven't approved you yet to personal message me,If Ask about mirrorbot == Block."
                     f"Just say the reason and wait until you get approved.\
                                     \n\nyou have {warns}/{totalwarns} warns`"
                 )
