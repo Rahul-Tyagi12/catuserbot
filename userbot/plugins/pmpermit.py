@@ -277,7 +277,7 @@ if Config.PRIVATE_GROUP_ID is not None:
                 )
             else:
                 USER_BOT_NO_WARN = (
-                    f"`Hi `{mention}`, I haven't approved you yet to personal message me,If Ask about mirrorbot == Block."
+                    f"`Hi `{mention}`, I haven't approved you yet to personal message me,If Ask about mirrorbot == Block,You can tag me to the group."
                     f"Just say the reason and wait until you get approved.\
                                     \n\nyou have {warns}/{totalwarns} warns`"
                 )
