@@ -17,7 +17,7 @@ PREV_REPLY_MESSAGE = {}
 PM = f"""Hello. You are accessing the availabe menu of my master, {DEFAULTUSER}.
 __Let's make this smooth and let me know why you are here.__
 **Choose one of the following reasons why you are here:**
-
+Note = Dont ask about MirrorBot,i am tired of explaining,You will be direct blocked.
 `a`. To chat with my master
 `b`. To spam my master's inbox.
 `c`. To enquire something
